@@ -1,1 +1,3 @@
-export const schemaTypes = []
+import admonitionType from "./admonitionType"
+
+export const schemaTypes = [admonitionType]
