@@ -1,0 +1,43 @@
+{
+	"name": "admonition-mve",
+	"private": true,
+	"license": "BSD-2-Clause",
+	"version": "1.0.0",
+	"description": "Minimum-Viable Example for creating admonitions in Sanity v3",
+	"author": "Andrew Pinkham",
+	"main": "package.json",
+	"scripts": {
+		"dev": "sanity dev",
+		"start": "sanity start",
+		"build": "sanity build",
+		"deploy": "sanity deploy"
+	},
+	"engines": {
+		"node": ">=18",
+		"yarn": "^1"
+	},
+	"dependencies": {
+		"@sanity/vision": "3.2.3",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-is": "18.2.0",
+		"sanity": "3.2.3",
+		"styled-components": "5.3.6"
+	},
+	"peerDependencies": {
+		"@babel/runtime": "7.20.7",
+		"@codemirror/lint": "6.1.0",
+		"@codemirror/state": "6.2.0",
+		"@codemirror/theme-one-dark": "6.1.0",
+		"@lezer/common": "1.0.2",
+		"codemirror": "6.0.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jambonrose/sanity-v3-admonition-mve.git"
+	},
+	"bugs": {
+		"url": "https://github.com/jambonrose/sanity-v3-admonition-mve/issues"
+	},
+	"homepage": "https://github.com/jambonrose/sanity-v3-admonition-mve"
+}
