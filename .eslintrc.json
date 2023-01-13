@@ -1,0 +1,11 @@
+{
+	"parser": "@typescript-eslint/parser",
+	"plugins": ["@typescript-eslint/eslint-plugin", "eslint-plugin-tsdoc"],
+	"extends": [
+		"plugin:@typescript-eslint/recommended",
+		"@sanity/eslint-config-studio"
+	],
+	"rules": {
+		"tsdoc/syntax": "error"
+	}
+}

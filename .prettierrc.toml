@@ -1,0 +1,19 @@
+# Core Prettier Options
+bracketSpacing = true
+bracketSameLine = false
+proseWrap = "always"
+semi = false
+singleQuote = false
+trailingComma = "all"
+
+# prettier-plugin-sort-imports
+importOrder = [
+    "^react$",
+    "^@?sanity",
+    "<THIRD_PARTY_MODULES>",
+    "^[./]"
+]
+importOrderCaseInsensitive = true
+importOrderGroupNamespaceSpecifiers = true
+importOrderSeparation = true
+importOrderSortSpecifiers = true
